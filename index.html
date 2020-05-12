@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Taller Parqueadero</title>
-    <!-- CSS Externos -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- CSS Internos -->
-    <link rel="stylesheet" href="css/estilos.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-static-top">
-      <!-- container-fluid = ocupa todo el ancho  de la pantalla -->
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Parqueadero UC</a>
-          <div class="btn-group navbar-btn">
-            <button type="button" class="btn btn-secondary" id="llegada">Llegada</button>
-            <button type="button" class="btn btn-secondary" id="ingreso">Ingreso</button>
-            <button type="button" class="btn btn-secondary" id="salida">Salida</button>
-          </div>
-          <div class="btn-group navbar-btn">
-            <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
-          </div>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller Parqueadero</title>
+  <!-- CSS Externos -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- CSS Internos -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-static-top">
+    <!-- container-fluid = ocupa todo el ancho  de la pantalla -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ParqueaderoUC</a>
+      <div class="btn-group navbar-btn">
+        <button type="button" class="btn btn-secondary" id="llegada">Llegada</button>
+        <button type="button" class="btn btn-secondary" id="ingreso">Ingreso</button>
+        <button type="button" class="btn btn-secondary" id="salida">Salida</button>
       </div>
-    </nav>
-    <div class="container">
-      <canvas id="canvas" width="800" height="500"></canvas>
+      <div class="btn-group navbar-btn">
+        <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
+      </div>
     </div>
+  </nav>
+
+  <div class="container text-center">
+    <canvas id="canvas" width="800" height="500"></canvas>
+
     <form class="formulario" action="controlador.php" method="post" id="formulario"></form>
-    <footer class="footer">
-      <div class="container">
-        <p>Copyright (c) 2017 Stiven Muñoz Murillo 1701320133 All Rights Reserved.</p>
-      </div>
-    </footer>
-    <!-- JS Externos -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- JS Internos -->
-    <script src="js/scripts.js"></script>
-  </body>
+  </div>
+
+  <footer class="footer">
+    <p id="parrafo">Copyright (c) 2017 Stiven Muñoz Murillo 1701320133 All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS Externos -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- JS Internos -->
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
