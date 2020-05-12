@@ -1,0 +1,12 @@
+Espacio 00: OCUPADO
+Espacio 01: OCUPADO
+Espacio 02: OCUPADO
+Espacio 03: OCUPADO
+Espacio 04: DISPONIBLE
+Espacio 05: DISPONIBLE
+Espacio 06: DISPONIBLE
+Espacio 07: DISPONIBLE
+Espacio 08: DISPONIBLE
+Espacio 09: DISPONIBLE
+
+Copyright (c) 2017 Stiven Muñoz Murillo 1701320133 All Rights Reserved.

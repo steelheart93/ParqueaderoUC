@@ -1,0 +1,59 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+
+	background-image: url("../img/fondo.png");
+}
+
+#canvas {
+	background-image: url("../img/parqueadero.jpg");
+}
+
+.navbar {
+	background-color: #2B2B2B !important;
+}
+
+.navbar-brand:link, .navbar-brand:visited {
+	color: deepskyblue !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active {
+	color: white !important;
+}
+
+#navbar li a:link, #navbar li a:visited {
+	color: skyblue !important;
+}
+
+#navbar li a:hover, #navbar li a:active {
+	color: whitesmoke !important;
+}
+
+.jumbotron {
+	background-color: deepskyblue;
+	color: white;
+}
+.panel-heading {
+	/* Hay que escribir !important en los casos donde no se modifique, para forzar dicha modificación. */
+	background-color: deepskyblue !important;
+	color: white !important;
+}
+.panel.body {
+	color: #2B2B2B !important;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: deepskyblue;
+	color: whitesmoke;
+	/* Letra 20% más grande. */
+	font-size: 1.2em;
+}
