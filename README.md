@@ -4,4 +4,4 @@ Taller elaborado para la clase de Programación 3 de la Universidad de Caldas, u
 
 # Preview Visualization
 
-![preview] (preview.png)
+![preview](preview.png)
